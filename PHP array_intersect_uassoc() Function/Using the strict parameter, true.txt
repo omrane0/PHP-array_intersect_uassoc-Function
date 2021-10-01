@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$a=array(10,20,30,"10");
+print_r(array_keys($a,"10",true));
+?>
+
+</body>
+</html>
+
+
+
+
+Array ( [0] => 3 )

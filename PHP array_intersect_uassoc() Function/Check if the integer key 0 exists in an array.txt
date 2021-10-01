@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$a=array("Volvo","BMW");
+if (array_key_exists(0,$a))
+  {
+  echo "Key exists!";
+  }
+else
+  {
+  echo "Key does not exist!";
+  }
+?>
+
+</body>
+</html>
+
+
+
+
+Key exists!
